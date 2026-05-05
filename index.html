@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siddiqov Javohir - Junior Frontend Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/png" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💻</text></svg>">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loader">
+        <div class="loader-circle"></div>
+        <div class="loader-text">Loading...</div>
+    </div>
+
+    <!-- Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-gradient">Siddiqov Javohir</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" data-text="Home">Home</a></li>
+                <li><a href="#about" data-text="About">About</a></li>
+                <li><a href="#projects" data-text="Projects">Projects</a></li>
+                <li><a href="#experience" data-text="Experience">Experience</a></li>
+                <li><a href="#contact" data-text="Contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-particles" id="particles"></div>
+        <div class="hero-content">
+            <div class="hero-meta">
+                <span class="meta-tag">Junior Frontend Developer</span>
+                <span class="meta-dot">•</span>
+                <span class="meta-location">Uzbekistan</span>
+            </div>
+            <h1 class="hero-title">
+                <span class="char" data-char="H">H</span>
+                <span class="char" data-char="i">i</span>
+                <span class="char" data-char="!">!</span>
+                <br>
+                <span class="char" data-char="I">I</span>
+                <span class="char" data-char="'">'</span>
+                <span class="char" data-char="m">m</span>
+                ...
+            </h1>
+            <p class="hero-desc">
+                I can work in HTML | SCSS | CSS | JS | Python languages
+            </p>
+            <div class="hero-buttons">
+                <a href="https://github.com/Javohir0215" class="btn btn-primary">
+                    <span>Recent Projects</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+                <a href="https://t.me/javkh1" class="btn btn-secondary">
+                    <span>Let's Talk</span>
+                </a>
+            </div>
+            <div class="hero-scroll">
+                <div class="scroll-indicator"></div>
+            </div>
+        </div>
+        <div class="hero-profile">
+            <div class="profile-3d">
+                <img src="./me.jpg" alt="Profile" class="profile-img">
+                <div class="profile-ring"></div>
+                <div class="profile-glow"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Get to know me</span>
+                <h2 class="section-title">About Me</h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-text">
+                    <h3>Short Information</h3>
+                    <p>I have never worked in any official job; I am a high school graduate who carries out independent activities.I was born in 2011 in Asaka district, Andijan region.</p>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <span>React</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="95"></div>
+                            </div>
+                        </div>
+                        <!-- QOLGAN SKILL LAR -->
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <canvas class="skills-canvas" id="skillsCanvas"></canvas>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">My recent work</span>
+                <h2 class="section-title">Projects</h2>
+            </div>
+            <div class="projects-grid">
+                <!-- LOYIHALAR SHU YERGA -->
+                <div class="project-card" data-project="1">
+                    <div class="project-media">
+                        <img src="./Screenshot 2026-05-05 161609.png" alt="">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/Javohir0215" class="project-link"><i class="fab fa-github"></i></a>
+                                <a href="https://javohir0215.github.io/School-webp/" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3><a href=""></a></h3>
+                        <p>In this project, I created a small website for my school</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Work Timeline</span>
+                <h2 class="section-title">Experience</h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item" data-year="2024">
+                    <div class="timeline-dot"></div>
+                    <h3>Independent programmer</h3>
+                    <span class="timeline-role">Junior Frontend Developer</span>
+                    <p>I have not worked in any official company so far, I only carry out independent projects.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Let's work together</span>
+                <h2 class="section-title">Contact</h2>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>jo2152011@gmail.com</span>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
